@@ -16,7 +16,7 @@ Add this to your Claude Desktop config file:
   "mcpServers": {
     "testrail": {
       "command": "npx",
-      "args": ["-y", "testrail-mcp"],
+      "args": ["-y", "github:tmurraypt/testrail-mcp"],
       "env": {
         "TESTRAIL_URL": "https://yourinstance.testrail.io",
         "TESTRAIL_EMAIL": "your@email.com",
